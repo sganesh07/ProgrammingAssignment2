@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
-        
+        ## invoking the MASS package 
   library('MASS')
   #to return an inverse 
   m <- x$getInverse()
